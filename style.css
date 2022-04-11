@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    max-width: 1440px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+img{
+
+    width: 64px;
+    height: 40px;
+
+}
+
+.container{
+
+    width: 1200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.all-set{
+
+    display: flex;
+    flex-direction: column;
+    padding: 0 5em 0 3em;
+    height: 35em;
+    justify-content: space-evenly;
+
+}
+
+.name{
+
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    color: hsl(0, 0%, 95%) ;
+    font-size: xxx-large;
+
+}
+
+.property{
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+
+button{
+
+    background-color:hsl(0, 0%, 95%) ;
+    border-radius: 20px;
+    width: 130px;
+    height: 45px;
+    border: none;
+
+}
+
+.attribution{
+
+    display: inline-block;
+    position: absolute;
+    top: 89%;
+    font-size: 11px; 
+    text-align: center;
+
+}
+
+.attribution a { 
+
+    color: hsl(228, 45%, 44%);
+
+}
+
+/* For Sedan */
+
+.sedan{
+
+    background-color:hsl(31, 77%, 52%) ;
+    height: fit-content;
+    width: 22em;
+
+}
+
+.sedan button{
+    
+    color: hsl(31, 77%, 52%);
+
+}
+
+.sedan button:hover{
+
+    background-color: hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%) ;
+    border: 2px solid hsl(0, 0%, 95%);
+
+}
+
+
+/* For Suv */
+
+.suv{
+
+    background-color:hsl(184, 100%, 22%) ;
+    height: fit-content;
+    width: 22em;
+
+}
+
+.suv button{
+
+    color:hsl(184, 100%, 22%) ;
+
+}
+
+.suv button:hover{
+
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color:hsl(184, 100%, 22%)  ;
+    color:hsl(0, 0%, 95%) ;
+
+}
+
+/* For luxury */
+
+.luxury{
+
+    background-color:hsl(179, 100%, 13%) ;
+    height: fit-content;
+    width: 22em;
+
+} 
+
+.luxury button{
+
+    color:hsl(179, 100%, 13%) ;    
+
+}
+
+.luxury button:hover{
+
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+
+}
+
+@media screen and (max-width:375px) {
+
+    body{
+
+        width: 375px;
+        
+    }
+
+    .container{
+
+        height: 100%;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5em 0;
+
+    }
+
+    .attribution{
+
+        position: static;
+        margin-top: 20px;
+
+    }
+    
+}
+
+
+
